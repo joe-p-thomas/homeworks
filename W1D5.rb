@@ -66,7 +66,7 @@ class Map
   end
 
   def show
-    ivar.each { |pair| p "#{pair[0]} => #{pair[1]}" } 
+    ivar.each { |pair| p "#{pair[0]} => #{pair[1]}" }
   end
 
   private
